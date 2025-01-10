@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="search-box-wrap">
+      <input type="text" class="search-bar-input" placeholder="Search . . ." />
+      <button class="search-button">&#128269;</button>
+      <img
+        src="thumbnails/voice-search-icon.svg"
+        alt=""
+        width="25"
+        height="25"
+        class="voice-search-icon"
+      />
+      <img
+        src="thumbnails/upload.svg"
+        alt=""
+        height="25px"
+        width="25px"
+        class="upload"
+      />
+      <img
+        src="thumbnails/youtube-apps.svg"
+        alt=""
+        height="25px"
+        width="25px"
+        class="youtube-apps"
+      />
+      <img
+        src="thumbnails/notifications.svg"
+        alt=""
+        height="25px"
+        width="25px"
+        class="notifications"
+      />
+      <img
+        src="thumbnails/profile.jpg"
+        alt=""
+        height="30px"
+        width="30px"
+        class="profile"
+      />
+    </div>
+
+    <!-- Flex container that holds both the vertical line and the video block -->
+
+    <div class="button-container">
+      <button class="buttons">Movies</button>
+      <button class="buttons">Games</button>
+      <button class="buttons">Chess</button>
+      <button class="buttons">Football</button>
+      <button class="buttons">Songs</button>
+      <button class="buttons">Recently Uploaded</button>
+      <button class="buttons">Watched</button>
+      <button class="buttons">New To You</button>
+      <button class="buttons">Arts</button>
+    </div>
+    <div class="main-container">
+      <!-- Vertical line -->
+      <div class="side-bar">
+        <button class="hamburger-menu">
+          <img
+            src="thumbnails/hamburger-menu.svg"
+            alt=""
+            height="30px"
+            width="30px"
+          />
+        </button>
+        <button class="home-button">
+          <div class="home-button-content">
+            <img src="thumbnails/home.svg" alt="" height="30px" width="30px" />
+            <span class="text-home">Home</span>
+          </div>
+        </button>
+        <button class="explore">
+          <div class="explore-content">
+            <img
+              src="thumbnails/explore.svg"
+              alt=""
+              height="30px"
+              width="30px"
+            />
+            <span class="text-explore">Explore</span>
+          </div>
+        </button>
+        <button class="subscriptions">
+          <div class="sub-content">
+            <img
+              src="thumbnails/subscriptions.svg"
+              alt="Subscriptions Icon"
+              height="30px"
+              width="30px"
+            />
+            <span class="text">Subscriptions</span>
+          </div>
+        </button>
+        <button class="original">
+          <div class="original-content">
+            <img
+              src="thumbnails/originals.svg"
+              alt=""
+              height="30px"
+              width="30px"
+            />
+            <span class="text">Originals</span>
+          </div>
+        </button>
+        <button class="ym">
+          <div class="ym-content">
+            <img src="thumbnails/youtube-music.svg" alt="" / height="30px"
+            width="30px">
+            <span class="text">YouTube Music</span>
+          </div>
+        </button>
+        <button class="library">
+          <div class="library-content">
+            <img
+              src="thumbnails/library.svg"
+              alt=""
+              height="30px"
+              width="30px"
+            />
+            <span class="text">Library</span>
+          </div>
+        </button>
+      </div>
+      <div class="vl"></div>
+      <!-- Block with video previews -->
+      <div class="block">
+        <div class="videos-container">
+          <div class="video-preview-1">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              <img src="thumbnails/thumbnail-1.webp" alt="" class="thumbnail-1"
+            /></a>
+            <p class="a">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            <p class="b">Marques Brownlee</p>
+            <p class="c">3.4M views · 6 months ago</p>
+          </div>
+          <div class="video-preview-2">
+            <a href=""
+              ><img
+                src="thumbnails/thumbnail-2.webp"
+                alt=""
+                class="thumbnail-2"
+            /></a>
+            <p class="a">Try Not To Laugh Challenge #9</p>
+            <p class="b">Markiplier</p>
+            <p class="c">19M views · 4 years ago</p>
+          </div>
+          <div class="video-preview-3">
+            <a href=""
+              ><img
+                src="thumbnails/thumbnail-3.webp"
+                alt=""
+                class="thumbnail-2"
+            /></a>
+            <p class="a">Crazy Tik Toks Taken Moments Before DISASTER</p>
+            <p class="b">SSSniperWolf</p>
+            <p class="c">12M views · 1 year ago</p>
+          </div>
+          <div class="video-preview-4">
+            <a href=""
+              ><img
+                src="thumbnails/thumbnail-4.webp"
+                alt=""
+                class="thumbnail-2"
+            /></a>
+            <p class="a">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+            <p class="b">Veritasium</p>
+            <p class="c">18M views · 4 months ago</p>
+          </div>
+          <div class="video-preview-5">
+            <a href=""
+              ><img
+                src="thumbnails/thumbnail-5.webp"
+                alt=""
+                class="thumbnail-2"
+            /></a>
+            <p class="a">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+            <p class="b">CS Dojo</p>
+            <p class="c">519K views · 5 years ago</p>
+          </div>
+          <div class="video-preview-6">
+            <a href=""
+              ><img
+                src="thumbnails/thumbnail-6.webp"
+                alt=""
+                class="thumbnail-2"
+            /></a>
+            <p class="a">Anything You Can Fit In The Circle I’ll Pay For</p>
+            <p class="b">MrBeast</p>
+            <p class="c">141M views · 1 year ago</p>
+          </div>
+          <div class="video-preview-7">
+            <a href=""
+              ><img
+                src="thumbnails/thumbnail-7.webp"
+                alt=""
+                class="thumbnail-2"
+            /></a>
+            <p class="a">Why Planes Don't Fly Over Tibet</p>
+            <p class="b">RealLifeLore</p>
+            <p class="c">6.6M views · 1 year ago</p>
+          </div>
+          <div class="video-preview-8">
+            <a href=""
+              ><img
+                src="thumbnails/thumbnail-8.webp"
+                alt=""
+                class="thumbnail-3"
+            /></a>
+            <p class="a">Inside The World's Biggest Passenger Plane</p>
+            <p class="b">Tech Vision</p>
+            <p class="c">3.7M views · 10 months ago</p>
+          </div>
+          <div class="video-preview-9">
+            <a href="">
+              <img src="thumbnails/thumbnail-9.webp" alt="" class="thumbnail-3"
+            /></a>
+            <p class="a">The SECRET to Super Human STRENGTH</p>
+            <p class="b">ThenX</p>
+            <p class="c">20M views · 3 year ago</p>
+          </div>
+          <div class="video-preview-10">
+            <a href="">
+              <img
+                src="thumbnails/thumbnail-10.webp"
+                alt=""
+                class="thumbnail-3"
+            /></a>
+            <p class="a">
+              How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+            </p>
+            <p class="b">Business Insider</p>
+            <p class="c">14M views · 1 year ago</p>
+          </div>
+          <div class="video-preview-11">
+            <a href="">
+              <img
+                src="thumbnails/thumbnail-11.webp"
+                alt=""
+                class="thumbnail-3"
+            /></a>
+            <p class="a">
+              Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+            </p>
+            <p class="b">Destination Tips</p>
+            <p class="c">3M views · 1 year ago</p>
+          </div>
+          <div class="video-preview-12">
+            <a href="">
+              <img
+                src="thumbnails/thumbnail-12.webp"
+                alt=""
+                class="thumbnail-3"
+            /></a>
+            <p class="a">
+              What would happen if you didn’t drink water? - Mia Nacamulli
+            </p>
+            <p class="b">TED-Ed</p>
+            <p class="c">12M views · 5 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
